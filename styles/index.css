@@ -55,7 +55,7 @@ html {
   color: #0087cc;
   line-height: 250px;
   text-align: center;
-  transform: rotateY(180deg) scale(1.25);
+  transform: rotateY(180deg) scale(1.0);
 }
 .spin {
   cursor: pointer;
