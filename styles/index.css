@@ -1,4 +1,4 @@
-/*Create my style*/
+/*Enhance my style*/
 html {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -24,11 +24,52 @@ html {
 	background: orange;
 	border-radius: 10px;
 }
-.photo{
-	display: block;
-    margin-left: auto;
-    margin-right: auto
-	border-radius: 25px;
-	margin-left: auto;
-	margin-right: auto;
+/*Rotate*/
+.photo-container {
+  cursor: pointer;
+  height: 250px;
+  perspective: 600; /*Ubah perspektif dengan perspective*/
+  position: relative;
+  width: 250px;
+}
+.photo {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.photo:hover { 
+  transform: rotateY(180deg) scale(1.25);/*Putar dengan rotate & Ubah skala bentuk dengan scale*/
+}
+.photo .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.photo .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 250px;
+  text-align: center;
+  transform: rotateY(180deg) scale(1.25);
+}
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+  animation: spin 5s linear infinite;
+}
+.spin:hover {
+	transform: skew(10deg, 30deg) translateX(30px) scale(1.75) infinite;/*skew & translate*/ 
+}
+@keyframes spin { /*keyframe*/
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
