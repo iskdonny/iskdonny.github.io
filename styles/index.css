@@ -124,11 +124,11 @@ button{
 }
 .kolom1{
 	columns: 100px 2;
-
+	margin: auto 5px auto 3px;
 }
 .kolom2{
 	columns: 100px 3;
-
+	margin: auto 5px auto 3px;
 }
 .gap{
 	column-gap: 50px;
