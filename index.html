@@ -23,9 +23,8 @@
 	<div id="main"> 
 		<p class="middle">Hi nama saya Donny Iskandar, panggil saya Donny.</p> <!--Paragraph, Teks italic & bold--> 
 	
-		<p><b><u>Deskripsi</u></b>
-		<br> <!--line break-->
-		Bergabung dengan Hacktiv8 adalah pilihan saya saat melihat sylabuss, profile mentor dan merupakan pertama kalinya bootcamp web coding di indonesia dibanding dengan course web coding lainnya dan knowledge ini akan saya gunakan untuk bekal kedepannya serta mendukung penggerak roda perekonomian di Negara ini.</p>
+		<p class="plabel">Deskripsi</p>
+		<p>Bergabung dengan Hacktiv8 adalah pilihan saya saat melihat sylabuss, profile mentor dan merupakan pertama kalinya bootcamp web coding di indonesia dibanding dengan course web coding lainnya dan knowledge ini akan saya gunakan untuk bekal kedepannya serta mendukung penggerak roda perekonomian di Negara ini.</p>
 
 		<p>Dalam belajar coding saya mengidolakan dua orang programmer yaitu: 
 			<ol> <!--order list-->
@@ -35,13 +34,29 @@
 		Menurut saya, keduanya tidak menyelesaikan pendidikan dengan baik namun hasil dari jerih payahnya dalam membangun aplikasi sangat membantu banyak kehidupan manusia.</p>
 	</div>
 	<div class="footer"> <!--div class-->
-		<p><b><u>Contact</u></b></p>
+		<p class="plabel">Contact</p>
+		<form class="form">
+			<fieldset>
+				<legend>Quess Book</legend>
+				<label>Name: *</label>
+				<input type="text" name="name" placeholder="John Doe" required><br>
+				<label>Email: *</label>
+				<input type="text" name="email" placeholder="Valid email address like johndoe@microsoft.com" required><br>
+				<label>Pick Your hobby: *</label><br>
+				<select>
+					<option value="t">Traveling</option>
+					<option value="c">Coding</option>
+					<option value="ct">Coding and Traveling</option>
+				</select><br>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
 		<ul><!--order list-->
 			<li>My social media at <a target="_blank" href="https://id.linkedin.com/in/iskandardonny">https://id.linkedin.com/in/iskandardonny</a></li>
 			<li>Email kepada saya di <a href="mailto:isk.donny@gmail.com">isk.donny@gmail.com</a></li> <!--Link alamat email yang jika diklik, membuka aplikasi email-->
-		</ul>	
+		</ul>
 		<p class="middle">Maju terus Blanford Fox...</p>
-	<div>
+	</div>
 	
 </body>
 </html>

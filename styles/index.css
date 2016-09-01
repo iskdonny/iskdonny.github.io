@@ -1,4 +1,4 @@
-/*Tidy up my code*/
+/*Add a contact form*/
 html {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -86,4 +86,39 @@ body{
 .middle{
 	text-align: center;
 	color: #8B008B;
+}
+.form{
+	background-color: #FF8C00;
+	font-family: arial;
+	font-size: 25px;
+}
+fieldset input[type="text"]:hover{
+	border: 5px solid blue;
+}
+label{
+	font-size: 25px;
+	font-weight: bold;
+}
+input[type="text"]{
+	width:100%;
+	border: 2px solid red;
+	font-size: 25px;
+	border-radius: 10px;
+}
+.plabel{
+	font-weight: bold;
+	text-decoration: underline;
+}
+select {
+	border: 2px solid red;
+	font-size: 25px;
+	border-radius: 10px;
+}
+select:hover{
+	border: 5px solid blue;
+}
+button{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px auto;
 }
