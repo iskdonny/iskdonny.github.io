@@ -1,4 +1,4 @@
-/*Add a contact form*/
+/*Create the first news article*/
 html {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -121,4 +121,73 @@ button{
 	font-size: 25px;
 	font-weight: bold;
 	margin: 10px auto;
+}
+.kolom1{
+	columns: 100px 2;
+
+}
+.kolom2{
+	columns: 100px 3;
+
+}
+.gap{
+	column-gap: 50px;
+
+}
+.line{
+	column-rule: 5px solid #000000;
+
+}
+h2, 
+h4,
+h5{
+	margin:0 auto;
+}
+h6{
+	text-align: center;
+	color: solid red;
+}
+button.dropbtn {
+	background: blue;
+	border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 0 5px 0 auto;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	float: right;
+
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #9b9def}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #7173e9;
 }
