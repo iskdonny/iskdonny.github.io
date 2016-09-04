@@ -1,0 +1,31 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  	font-weight: 400;
+  	line-height: 1.45;
+}
+.container {
+}
+
+.kiri{
+	float: left;
+	columns: 100px 2;
+	margin: 0;
+	padding-right: 0;
+	position: relative;
+}
+.kanan{
+	float: right;
+	columns: 500px 1;
+	margin: 0;
+	padding-left: 0;
+}
+.gap{
+	column-gap: 5px;
+
+}
+footer {
+    margin: 50px 0;
+}
+.row{
+	columns: 600px 3;
+}
