@@ -1,0 +1,28 @@
+/*week-2*/ 
+/*Thinking and Learning*/
+html{box-sizing: border-box;}
+body{color: #666666;}
+h1{
+	color: inherit;
+	font-size: 48px;
+	margin-top: 42px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+h2, h3, h4{color: orange;}
+.sidebar{display: inline-block;}
+.main-feature{
+	border: 1px solid #cccccc;
+	padding: 30px;
+	margin-top: 30px;
+}
+.content{padding: 1em}
+.content li{list-style-type: none;}
+li img{float: left; padding-right: 1em; max-width: 100%;}
+li p{font-size: 0.9em; font-style: italic;padding-left: 10px;}
+ul, ol { margin: 1em 0; padding: 0 0 0 20px; }
+.container-fluid {
+    max-width: 50em;
+    margin: 0 auto;}
+p{text-align: justify;word-wrap: normal;}
+footer{text-align: center;}
