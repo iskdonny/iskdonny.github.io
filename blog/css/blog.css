@@ -12,3 +12,15 @@ footer {
 	width: 60%;
 	float: right;
 }
+p{
+	text-align: justify;
+	
+}
+.ptxt{
+	text-indent: 50px;
+}
+.imgsmall{
+	width: 150px;
+	height: 100px;
+	padding-right: 0;
+}
